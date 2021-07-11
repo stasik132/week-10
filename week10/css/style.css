@@ -1,0 +1,71 @@
+*{
+    padding: 10px;
+    margin: 0;
+    box-sizing: border-box;  
+}
+@font-face {
+    font-family: "sans";
+    src: url(../fonts/OpenSans-Regular.woff2) format("woff2");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+body{
+    height: 100vh;
+    background-image: url(../img/pexels-photo-337540\ \(1\).png); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.menu img{
+    height: 55px;
+}
+.buttons a{
+    margin-right: 40px;
+    padding: 12px 40px 12px 40px;
+    color: white;
+    text-decoration: none;
+    border: 1px solid white;
+    border-radius: 50px;
+}
+header{
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    font-family: sans;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: sans;
+    color: white;
+    text-align: center;
+}
+.hero h1{
+    font-size: 130px;
+    font-weight: 700;
+    line-height: 117px;
+}
+.hero p{
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+.search{
+    color: gray;
+    padding: 10px 330px 10px 10px;
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.25);
+}
+footer{
+    font-family: sans;
+    color: gray;
+    height:340px ;
+    display: flex;
+    justify-content:space-between;
+    align-items: flex-end;
+    
+}
